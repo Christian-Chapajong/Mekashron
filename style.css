@@ -137,6 +137,9 @@ html, body {
 .reports-table thead tr{
     border-radius: 25% !important;
 }
+.table-striped>tbody>tr:nth-of-type(odd){
+    --bs-table-accent-bg: #F9F9F9 !important;
+}
 
 
 /* Media Queries */
